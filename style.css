@@ -92,7 +92,6 @@ h1.heading,
     width: 50%;
 }
 
-
 .herotext p{
     margin-bottom: var(--defbottommargin);
     font-size: 3.8vw;
@@ -100,7 +99,6 @@ h1.heading,
     line-height: 1.3;
 
 }
-
 .col {
     flex: 25%;
     padding: 0 10px;
@@ -305,7 +303,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--lightgray);
 }
 
 @media (min-width: 468px) and (max-width: 891.98px) {
