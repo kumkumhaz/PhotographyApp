@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 :root {
     --defpadding: 8% 12%;
     --defmediaquerypadding:10% 4%;
@@ -44,10 +46,9 @@ h1.heading,
     height: 100vh;
 }
 .navbar {
-    position: sticky;
+    position: sticky !important;
     top: 0;
     left: 0;
-    right: 0;
     z-index: 1000;
     color: var(--white);
 }
@@ -59,16 +60,22 @@ h1.heading,
 .navbar h2{
     font-weight: 700;
     font-size: 30px;
+    margin-bottom: 0 !important;
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .navbar-nav .nav-link {
     font-weight:600 ;
     font-size: 20px; 
+    color: var(--white) !important;
 }
-.menuitem a {
-    color: white;
+.navbar-toggler {
+    border-color: var(--white) !important; 
+    background-color: var(--lightgray) !important;
 }
+
+
 
 .herotext {
     position: absolute;
