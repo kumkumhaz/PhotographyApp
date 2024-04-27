@@ -75,6 +75,10 @@ h1.heading,
     background-color: var(--lightgray) !important;
 }
 
+.container-fluid{
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
 
 
 .herotext {
@@ -330,7 +334,6 @@ footer {
 .navbar-nav .nav-link {
     font-weight:500 ;
     font-size: 15px; 
-    color: var(--white) !important;
 }
     .herotext {
         position: absolute;
